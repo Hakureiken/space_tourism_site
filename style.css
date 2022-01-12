@@ -189,7 +189,7 @@ hr {
     width: 100%;
 }
 
-.cercle.activ, .cercle.activ p {
+.cercle.activ {
     color: #0B0D17;
     background:white;
 }
@@ -208,5 +208,33 @@ hr {
     height: 187.5px;
     border-radius: 50%;
     font-size: 20px;
+    color: black;
+}
+.explore a:link, .explore a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+.explore:hover {
+    background-color:rgb(17, 0, 255);
+    
+}
+
+.explore:hover a {
+    color: white;
+}
+
+.navprincipale:hover a {
+    color:red;
+}
+
+.navmenu:hover a {
+    color:green;
+}
+
+.cercle:hover {
+    background-color: #979797;
+}
+.cercle.activ p {
     color: black;
 }
