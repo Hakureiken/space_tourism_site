@@ -238,3 +238,12 @@ hr {
 .cercle.activ p {
     color: black;
 }
+
+a.actuel {
+    color:purple !important;
+}
+
+a.courante {
+    font-weight: 900;
+    color:aqua !important;
+}
