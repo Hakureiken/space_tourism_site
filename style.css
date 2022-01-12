@@ -1,0 +1,212 @@
+*, *:after, *:before {box-sizing: border-box;}
+/* import police */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+/* background accueil */
+@media screen and (max-width:576px){
+    .accueil {background: url(assets/home/background-home-mobile.jpg);background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+
+    .crew {
+        height: 33vh;
+    }
+    
+    .destination {background: url(assets/destination/background-destination-mobile.jpg);background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+
+    .personne {background: url(assets/crew/background-crew-mobile.jpg);background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+    
+    .fusee {background: url(assets/technology/background-technology-mobile.jpg);background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+
+    .lune {
+        height: 170px;
+    }
+
+    .cercle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid white;
+        color:white;
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width:577px){
+    .accueil {background: url(assets/home/background-home-tablet.jpg); background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+
+    .crew {
+        height: 55vh;
+    }
+
+    .destination {background: url(assets/destination/background-destination-tablet.jpg); background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+
+    .personne {background: url(assets/crew/background-crew-tablet.jpg); background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+    
+    .fusee {background: url(assets/technology/background-technology-tablet.jpg);background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+
+    .lune {
+        height: 300px;
+    }
+
+    .cercle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid white;
+        color:white;
+        font-size: 24px;
+    }
+
+}
+@media screen and (min-width:1201px){
+    .accueil {background: url(assets/home/background-home-desktop.jpg);background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+
+    .crew {
+        height: 70vh;
+    }
+
+    .destination {background: url(assets/destination/background-destination-desktop.jpg);background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+
+    .personne {background: url(assets/crew/background-crew-desktop.jpg);background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+
+    .fusee {background: url(assets/technology/background-technology-desktop.jpg);background-repeat: no-repeat;background-size: 100% 100%;min-height: 100vh;
+    }
+
+    .lune {
+        height: 450px;
+    }
+
+    .cercle {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 1px solid white;
+        color:white;
+        font-size: 32px;
+    }
+    .technologie {
+        display: none;
+    }
+    .techno3 {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        width: 515px;height: 527px;
+        background: url(assets/technology/image-space-capsule-portrait.jpg);
+    }
+
+    .techno2 {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        width: 515px;height: 527px;
+        background: url(assets/technology/image-spaceport-portrait.jpg);
+    }
+
+    .techno1 {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        width: 515px;height: 527px;
+        background: url(assets/technology/image-launch-vehicle-portrait.jpg);
+    }
+}
+
+.barlow {
+    font-family: 'Barlow';
+}
+
+.barlow-cond {
+    font-family: 'Barlow-condensed';
+}
+
+.bellefair {
+    font-family: 'Bellefair';
+}
+
+.container-fluid, .row, .row>* {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+li a:link{
+    color: white;
+}
+
+.navprincipale a:link, .navprincipale a:visited {
+    color:#D0D6F9
+}
+
+.navmenu a:link, .navmenu a:visited {
+    color: white;
+}
+
+.active {
+    border-bottom: 3px solid white;
+}
+
+.bgnav {
+    backdrop-filter: opacity(100%) blur(5px) contrast(90%);
+}
+
+.moon {
+    font-size: 50px;
+}
+
+hr {
+    
+    border-top: 1px solid #979797 !important;
+
+}
+
+.bordure {
+    border-bottom: 1px solid #5f5f5f;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #979797;
+}
+
+.dot.activ {
+    background: white;
+}
+
+.row > .col{
+    padding:0;
+}
+
+.technologie {
+    width: 100%;
+}
+
+.cercle.activ, .cercle.activ p {
+    color: #0B0D17;
+    background:white;
+}
+
+.title {
+    font-size: 5em;
+    color: white;
+}
+/* couleur des résumés et autre */
+.resume {
+    color: #D0D6F9;
+}
+
+.explore {
+    background: white;
+    height: 187.5px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+}
